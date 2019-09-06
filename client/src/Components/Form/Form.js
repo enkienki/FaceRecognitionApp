@@ -4,14 +4,14 @@ const ImageForm = ({ onSubmit, inputValue, onChange }) => {
     return(
         <div className='flex flex-column items-center'>
             <div>
-                <p>This is a face dectection app, give it a try!</p>
+                <p className='near-white'>This is a face dectection app, give it a try!</p>
             </div>
             <form 
                 className='w-100 w-75-m w-50-ns'
                 onSubmit={onSubmit}
             >
                 <input 
-                    className="f6 f5-l input-reset bn fl black-80 bg-white pa3 lh-solid w-100 w-75-m w-80-l br2-ns br--left-ns" 
+                    className="f6 f5-l input-reset bn fl black-80 bg-near-white pa3 lh-solid w-100 w-75-m w-80-l br2-ns br--left-ns" 
                     placeholder="Enter an URL" 
                     type="text" 
                     name="image-url"
