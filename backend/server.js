@@ -33,4 +33,4 @@ app.get('/profile/:id', (req, res) => handleProfile(req, res, knex))
 app.put('/image', (req, res) => image.handleImage(req, res, knex))
 app.post('/imageurl', (req, res) => image.handleAPICall(req, res))
 
-app.listen(PORT, () => {`App listen on port ${PORT}`})
+app.listen(PORT, () => {console.log(`App listen on port ${PORT}`)})
