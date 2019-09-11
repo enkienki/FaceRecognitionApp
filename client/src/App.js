@@ -51,8 +51,7 @@ class App extends React.Component {
     const height = Number(image.height);
 
     for (let i = 0; i < data.outputs[0].data.regions.length; i++) {
-      const clarifaiFace =
-        data.outputs[0].data.regions[i].region_info.bounding_box;
+      const clarifaiFace = data.outputs[0].data.regions[i].region_info.bounding_box;
       // store each of the position (in px) points given by the API
       boxsLocation.push({
         topRow: clarifaiFace.top_row * height,
