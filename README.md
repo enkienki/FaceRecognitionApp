@@ -1,5 +1,5 @@
 # FaceRecognitionApp
-A simple face recognition app, final project from Andrei Neagoie's Udemy web developement course
+A simple face recognition app, final project from <a href='https://www.udemy.com/the-complete-web-developer-zero-to-mastery/'>Andrei Neagoie's Udemy web developement course</a>
 <br/>
 <br/>
 <p align='center'>
