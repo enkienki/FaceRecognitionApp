@@ -1,5 +1,7 @@
 # FaceRecognitionApp
-A simple face recognition app, final project from <a href='https://www.udemy.com/the-complete-web-developer-zero-to-mastery/'>Andrei Neagoie's Udemy web developement course</a>
+<a href="https://smart-brain-gaetan.herokuapp.com">App available here</a> (loading time is long due to my free plan on heroku...)
+<br>
+<p>A simple face recognition app, final project from <a href='https://www.udemy.com/the-complete-web-developer-zero-to-mastery/'>Andrei Neagoie's Udemy web developement course</a></p>
 <br/>
 <br/>
 <p align='center'>
